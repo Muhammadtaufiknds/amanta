@@ -1,0 +1,12 @@
+/* body {
+  min-height: 2000px;
+} */
+
+.tema {
+  padding-top: 3rem;
+}
+
+.card-tema:hover {
+  transform: scale(1.2);
+  z-index: 500;
+}

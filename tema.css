@@ -1,0 +1,98 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* body {
+    min-height: 2000px;
+  } */
+
+.jumbotron {
+  padding-top: 6rem;
+  /* background-color: #e2edef; */
+}
+
+img.img-fitur {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-tema:hover {
+  transform: scale(1.2);
+  z-index: 500;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.btn-shopee:hover {
+  background-color: #ba4e1f;
+}
+
+.card-harga {
+  height: 700px;
+}
+
+.garis-bawah-1 {
+  margin-top: 248px;
+}
+
+.garis-bawah-2 {
+  margin-top: 248px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+/* ------------------- */
+/* body {
+  display: flex;
+} */
+
+.ui-card {
+  /* background: radial-gradient(#111 50%, #000 100%); */
+  overflow: hidden;
+  position: relative;
+}
+
+.ui-card img {
+  transform: scale(1);
+  transition: all 0.3s ease-out;
+}
+
+.ui-card:hover img {
+  transform: scale(1.2) translateY(-5px);
+  /* opacity: 0.3; */
+}
+/* 
+.description {
+  position: absolute;
+}
+
+.description h5 {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+.description a {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out 0.2s;
+}
+
+.ui-card:hover .description h5 {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
+.ui-card:hover .description a {
+  opacity: 1;
+  transform: translateY(0);
+}
